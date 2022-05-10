@@ -1,0 +1,95 @@
+---
+_project:
+  authors:
+    - ""
+  description: ""
+  name: Marrage%
+  url: ""
+  version: 0.1.0
+_route:
+  - (==) Welcome to celer!
+  - Plateau:
+     - _Material<HylianShirt>
+     - _Equipment::Weapon<Hammer>
+     - Activate Tower
+  
+  - Supplies:
+    - _Material<Gems>:
+       coord: [-2102.28, 273.04, 695.63]
+    - _Material<Diamond>:
+       coord: [-2247.90, 353.39, 662.05]
+    - _Material<10 Durians>:
+       coord: [ -2182.08, 410.76, 446.51]
+    - _Material<Endura Carrot>:
+       coord: [-2307.94, 416.75, 526.67]
+    - _Shrine::MoggLatan
+    - _Npc<Toren>:
+       coord: [-2916.00, 274.73, -561.00]
+       comment: 500 rupees
+    - Cook Durians
+    - Cook Carrot x3
+    - _Enemy:<Rare Stone Talus>:
+       coord: [-3248.40, 291.68, -1078.12]
+    - _Shrine::AkhVaquot
+    - Sell Gems for 3000 rupees
+    - _Material<Wood>:
+       comment: 140 (Save/Load)
+       line-color: pink
+
+  - Buy House:
+    - _Warp::Shrine::MoggLatan
+    - _Shrine::MyahmAgana
+    - _Npc<Bolson>:
+       comment: Buy House (3000)
+
+  - Invitations:
+  
+    - _Warp::Shrine::MoggLatan:
+       line-color: lightgreen
+    - _Shrine::DahHesho
+    - _Npc<Kapson>:
+       coord: [3997.87, 234.93, -1600.19]
+
+  - _Warp::Shrine::MoggLatan:
+     line-color: fuchsia
+  - _Npc<Greyson>:
+     coord: [1656.63, 430.15, -1968.53]
+
+  - _Warp::Shrine::DahHesho
+  - _Npc<Kapson>:
+     coord: [3997.87, 234.93, -1600.19]
+
+  - _Warp::Shrine::KehNamut
+  - _Npc<Rhondson>:
+     coord: [-3269.43, 129.00, 2585.22]
+     comment: Daytime?
+
+  - _Warp::Shrine::DahHesho
+  - _Npc<Kapson>:
+     coord: [3997.87, 234.93, -1600.19]
+
+  - _Warp::Shrine::AkhVaquot
+  - _Npc<Fyson>:
+     coord: [-3600.50, 287.60, -1814.47 ]
+
+  - _Warp::Shrine::DahHesho
+  - _Npc<Kapson>:
+     coord: [3997.87, 234.93, -1600.19]
+  - _Npc<Gaddison>:
+     coord: [3326.95, 268.46, -530.05]
+
+
+  - _Warp::Shrine::DahHesho
+  - _Npc<Kapson>:
+     coord: [3997.87, 234.93, -1600.19]
+
+
+  - _Warp::Shrine::MyahmAgana
+  - _Npc<Bolson>:
+     coord: [ 3331.22, 235.28, 2284.61]
+
+  - _Warp::Shrine::DahHesho
+  - _Npc<Kapson>:
+     coord: [3997.87, 234.93, -1600.19]
+
+  - Mawage!!!
