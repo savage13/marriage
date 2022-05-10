@@ -47,7 +47,7 @@ _route:
     - _Warp::Shrine::MoggLatan:
        line-color: lightgreen
     - _Shrine::DahHesho
-    - _Npc<Kapson>:
+    - _Npc<Hudson>:
        coord: [3997.87, 234.93, -1600.19]
 
   - _Warp::Shrine::MoggLatan:
@@ -56,7 +56,7 @@ _route:
      coord: [1656.63, 430.15, -1968.53]
 
   - _Warp::Shrine::DahHesho
-  - _Npc<Kapson>:
+  - _Npc<Hudson>:
      coord: [3997.87, 234.93, -1600.19]
 
   - _Warp::Shrine::KehNamut
@@ -65,7 +65,7 @@ _route:
      comment: Daytime?
 
   - _Warp::Shrine::DahHesho
-  - _Npc<Kapson>:
+  - _Npc<Hudson>:
      coord: [3997.87, 234.93, -1600.19]
 
   - _Warp::Shrine::AkhVaquot
@@ -73,14 +73,14 @@ _route:
      coord: [-3600.50, 287.60, -1814.47 ]
 
   - _Warp::Shrine::DahHesho
-  - _Npc<Kapson>:
+  - _Npc<Hudsoc>:
      coord: [3997.87, 234.93, -1600.19]
-  - _Npc<Gaddison>:
+  - _Npc<Kapson>:
      coord: [3326.95, 268.46, -530.05]
 
 
   - _Warp::Shrine::DahHesho
-  - _Npc<Kapson>:
+  - _Npc<Hudson>:
      coord: [3997.87, 234.93, -1600.19]
 
 
@@ -89,7 +89,7 @@ _route:
      coord: [ 3331.22, 235.28, 2284.61]
 
   - _Warp::Shrine::DahHesho
-  - _Npc<Kapson>:
+  - _Npc<Hudson>:
      coord: [3997.87, 234.93, -1600.19]
 
   - Mawage!!!
